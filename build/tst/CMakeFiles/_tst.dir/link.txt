@@ -1,1 +1,1 @@
-/usr/bin/g++ -g CMakeFiles/_tst.dir/Formula-test.cpp.o CMakeFiles/_tst.dir/main.cpp.o -o _tst  -lGoogle-Unit-Test_lib ../lib/libgtest.a 
+/usr/bin/g++ -g CMakeFiles/_tst.dir/test.cpp.o -o _tst  ../src/lib_lib.a ../lib/libgtest.a 

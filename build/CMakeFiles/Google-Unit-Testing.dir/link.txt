@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/Google-Unit-Testing.dir/tst/test.cpp.o -o Google-Unit-Testing 

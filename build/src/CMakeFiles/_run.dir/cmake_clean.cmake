@@ -1,8 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/_run.dir/Formula.cpp.o"
-  "CMakeFiles/_run.dir/Formula.cpp.o.d"
-  "CMakeFiles/_run.dir/main.cpp.o"
-  "CMakeFiles/_run.dir/main.cpp.o.d"
   "CMakeFiles/_run.dir/paged_Matrix.cpp.o"
   "CMakeFiles/_run.dir/paged_Matrix.cpp.o.d"
   "CMakeFiles/_run.dir/server.cpp.o"

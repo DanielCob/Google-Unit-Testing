@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/_tst.dir/Formula-test.cpp.o"
-  "CMakeFiles/_tst.dir/Formula-test.cpp.o.d"
-  "CMakeFiles/_tst.dir/main.cpp.o"
-  "CMakeFiles/_tst.dir/main.cpp.o.d"
+  "CMakeFiles/_tst.dir/test.cpp.o"
+  "CMakeFiles/_tst.dir/test.cpp.o.d"
   "_tst"
   "_tst.pdb"
 )

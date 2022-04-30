@@ -69,38 +69,10 @@ include src/CMakeFiles/_lib.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/CMakeFiles/_lib.dir/flags.make
 
-src/CMakeFiles/_lib.dir/Formula.cpp.o: src/CMakeFiles/_lib.dir/flags.make
-src/CMakeFiles/_lib.dir/Formula.cpp.o: ../src/Formula.cpp
-src/CMakeFiles/_lib.dir/Formula.cpp.o: src/CMakeFiles/_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danielcob/Documents/Google-Unit-Testing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/_lib.dir/Formula.cpp.o"
-	cd /home/danielcob/Documents/Google-Unit-Testing/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/_lib.dir/Formula.cpp.o -MF CMakeFiles/_lib.dir/Formula.cpp.o.d -o CMakeFiles/_lib.dir/Formula.cpp.o -c /home/danielcob/Documents/Google-Unit-Testing/src/Formula.cpp
-
-src/CMakeFiles/_lib.dir/Formula.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/_lib.dir/Formula.cpp.i"
-	cd /home/danielcob/Documents/Google-Unit-Testing/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/danielcob/Documents/Google-Unit-Testing/src/Formula.cpp > CMakeFiles/_lib.dir/Formula.cpp.i
-
-src/CMakeFiles/_lib.dir/Formula.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/_lib.dir/Formula.cpp.s"
-	cd /home/danielcob/Documents/Google-Unit-Testing/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/danielcob/Documents/Google-Unit-Testing/src/Formula.cpp -o CMakeFiles/_lib.dir/Formula.cpp.s
-
-src/CMakeFiles/_lib.dir/main.cpp.o: src/CMakeFiles/_lib.dir/flags.make
-src/CMakeFiles/_lib.dir/main.cpp.o: ../src/main.cpp
-src/CMakeFiles/_lib.dir/main.cpp.o: src/CMakeFiles/_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danielcob/Documents/Google-Unit-Testing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/_lib.dir/main.cpp.o"
-	cd /home/danielcob/Documents/Google-Unit-Testing/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/_lib.dir/main.cpp.o -MF CMakeFiles/_lib.dir/main.cpp.o.d -o CMakeFiles/_lib.dir/main.cpp.o -c /home/danielcob/Documents/Google-Unit-Testing/src/main.cpp
-
-src/CMakeFiles/_lib.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/_lib.dir/main.cpp.i"
-	cd /home/danielcob/Documents/Google-Unit-Testing/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/danielcob/Documents/Google-Unit-Testing/src/main.cpp > CMakeFiles/_lib.dir/main.cpp.i
-
-src/CMakeFiles/_lib.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/_lib.dir/main.cpp.s"
-	cd /home/danielcob/Documents/Google-Unit-Testing/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/danielcob/Documents/Google-Unit-Testing/src/main.cpp -o CMakeFiles/_lib.dir/main.cpp.s
-
 src/CMakeFiles/_lib.dir/paged_Matrix.cpp.o: src/CMakeFiles/_lib.dir/flags.make
 src/CMakeFiles/_lib.dir/paged_Matrix.cpp.o: ../src/paged_Matrix.cpp
 src/CMakeFiles/_lib.dir/paged_Matrix.cpp.o: src/CMakeFiles/_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danielcob/Documents/Google-Unit-Testing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/_lib.dir/paged_Matrix.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danielcob/Documents/Google-Unit-Testing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/_lib.dir/paged_Matrix.cpp.o"
 	cd /home/danielcob/Documents/Google-Unit-Testing/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/_lib.dir/paged_Matrix.cpp.o -MF CMakeFiles/_lib.dir/paged_Matrix.cpp.o.d -o CMakeFiles/_lib.dir/paged_Matrix.cpp.o -c /home/danielcob/Documents/Google-Unit-Testing/src/paged_Matrix.cpp
 
 src/CMakeFiles/_lib.dir/paged_Matrix.cpp.i: cmake_force
@@ -114,7 +86,7 @@ src/CMakeFiles/_lib.dir/paged_Matrix.cpp.s: cmake_force
 src/CMakeFiles/_lib.dir/server.cpp.o: src/CMakeFiles/_lib.dir/flags.make
 src/CMakeFiles/_lib.dir/server.cpp.o: ../src/server.cpp
 src/CMakeFiles/_lib.dir/server.cpp.o: src/CMakeFiles/_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danielcob/Documents/Google-Unit-Testing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/_lib.dir/server.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danielcob/Documents/Google-Unit-Testing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/_lib.dir/server.cpp.o"
 	cd /home/danielcob/Documents/Google-Unit-Testing/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/_lib.dir/server.cpp.o -MF CMakeFiles/_lib.dir/server.cpp.o.d -o CMakeFiles/_lib.dir/server.cpp.o -c /home/danielcob/Documents/Google-Unit-Testing/src/server.cpp
 
 src/CMakeFiles/_lib.dir/server.cpp.i: cmake_force
@@ -127,21 +99,17 @@ src/CMakeFiles/_lib.dir/server.cpp.s: cmake_force
 
 # Object files for target _lib
 _lib_OBJECTS = \
-"CMakeFiles/_lib.dir/Formula.cpp.o" \
-"CMakeFiles/_lib.dir/main.cpp.o" \
 "CMakeFiles/_lib.dir/paged_Matrix.cpp.o" \
 "CMakeFiles/_lib.dir/server.cpp.o"
 
 # External object files for target _lib
 _lib_EXTERNAL_OBJECTS =
 
-src/lib_lib.a: src/CMakeFiles/_lib.dir/Formula.cpp.o
-src/lib_lib.a: src/CMakeFiles/_lib.dir/main.cpp.o
 src/lib_lib.a: src/CMakeFiles/_lib.dir/paged_Matrix.cpp.o
 src/lib_lib.a: src/CMakeFiles/_lib.dir/server.cpp.o
 src/lib_lib.a: src/CMakeFiles/_lib.dir/build.make
 src/lib_lib.a: src/CMakeFiles/_lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/danielcob/Documents/Google-Unit-Testing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library lib_lib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/danielcob/Documents/Google-Unit-Testing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library lib_lib.a"
 	cd /home/danielcob/Documents/Google-Unit-Testing/build/src && $(CMAKE_COMMAND) -P CMakeFiles/_lib.dir/cmake_clean_target.cmake
 	cd /home/danielcob/Documents/Google-Unit-Testing/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/_lib.dir/link.txt --verbose=$(VERBOSE)
 

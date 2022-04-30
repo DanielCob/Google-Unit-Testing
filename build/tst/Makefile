@@ -162,66 +162,42 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-tst/CMakeFiles/_tst.dir/rule:
-	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tst/CMakeFiles/_tst.dir/rule
-.PHONY : tst/CMakeFiles/_tst.dir/rule
+tst/CMakeFiles/Google-Unit-Test_tst.dir/rule:
+	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tst/CMakeFiles/Google-Unit-Test_tst.dir/rule
+.PHONY : tst/CMakeFiles/Google-Unit-Test_tst.dir/rule
 
 # Convenience name for target.
-_tst: tst/CMakeFiles/_tst.dir/rule
-.PHONY : _tst
+Google-Unit-Test_tst: tst/CMakeFiles/Google-Unit-Test_tst.dir/rule
+.PHONY : Google-Unit-Test_tst
 
 # fast build rule for target.
-_tst/fast:
-	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/_tst.dir/build.make tst/CMakeFiles/_tst.dir/build
-.PHONY : _tst/fast
+Google-Unit-Test_tst/fast:
+	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/Google-Unit-Test_tst.dir/build.make tst/CMakeFiles/Google-Unit-Test_tst.dir/build
+.PHONY : Google-Unit-Test_tst/fast
 
-Formula-test.o: Formula-test.cpp.o
-.PHONY : Formula-test.o
-
-# target to build an object file
-Formula-test.cpp.o:
-	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/_tst.dir/build.make tst/CMakeFiles/_tst.dir/Formula-test.cpp.o
-.PHONY : Formula-test.cpp.o
-
-Formula-test.i: Formula-test.cpp.i
-.PHONY : Formula-test.i
-
-# target to preprocess a source file
-Formula-test.cpp.i:
-	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/_tst.dir/build.make tst/CMakeFiles/_tst.dir/Formula-test.cpp.i
-.PHONY : Formula-test.cpp.i
-
-Formula-test.s: Formula-test.cpp.s
-.PHONY : Formula-test.s
-
-# target to generate assembly for a file
-Formula-test.cpp.s:
-	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/_tst.dir/build.make tst/CMakeFiles/_tst.dir/Formula-test.cpp.s
-.PHONY : Formula-test.cpp.s
-
-main.o: main.cpp.o
-.PHONY : main.o
+test.o: test.cpp.o
+.PHONY : test.o
 
 # target to build an object file
-main.cpp.o:
-	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/_tst.dir/build.make tst/CMakeFiles/_tst.dir/main.cpp.o
-.PHONY : main.cpp.o
+test.cpp.o:
+	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/Google-Unit-Test_tst.dir/build.make tst/CMakeFiles/Google-Unit-Test_tst.dir/test.cpp.o
+.PHONY : test.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+test.i: test.cpp.i
+.PHONY : test.i
 
 # target to preprocess a source file
-main.cpp.i:
-	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/_tst.dir/build.make tst/CMakeFiles/_tst.dir/main.cpp.i
-.PHONY : main.cpp.i
+test.cpp.i:
+	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/Google-Unit-Test_tst.dir/build.make tst/CMakeFiles/Google-Unit-Test_tst.dir/test.cpp.i
+.PHONY : test.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+test.s: test.cpp.s
+.PHONY : test.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/_tst.dir/build.make tst/CMakeFiles/_tst.dir/main.cpp.s
-.PHONY : main.cpp.s
+test.cpp.s:
+	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/Google-Unit-Test_tst.dir/build.make tst/CMakeFiles/Google-Unit-Test_tst.dir/test.cpp.s
+.PHONY : test.cpp.s
 
 # Help Target
 help:
@@ -235,13 +211,10 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... _tst"
-	@echo "... Formula-test.o"
-	@echo "... Formula-test.i"
-	@echo "... Formula-test.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... Google-Unit-Test_tst"
+	@echo "... test.o"
+	@echo "... test.i"
+	@echo "... test.s"
 .PHONY : help
 
 

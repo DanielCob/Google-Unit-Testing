@@ -1,10 +1,11 @@
-cmake_minimum_required(VERSION 3.10)
-project(Google-Unit-Test)
+cmake_minimum_required(VERSION 3.0.0)
+project(Google-Unit-Testing VERSION 0.1.0)
 
-set(CMAKE_CXX_STANDARD 14)
+include(CTest)
+enable_testing()
 
-include_directories(src)
+add_executable(Google-Unit-Testing tst/test.cpp)
 
-add_subdirectory(src)
-add_subdirectory(tst)
-add_subdirectory(lib/googletest)
+set(CPACK_PROJECT_NAME ${PROJECT_NAME})
+set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
+include(CPack)

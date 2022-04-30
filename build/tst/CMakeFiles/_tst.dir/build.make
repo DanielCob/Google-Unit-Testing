@@ -69,48 +69,33 @@ include tst/CMakeFiles/_tst.dir/progress.make
 # Include the compile flags for this target's objects.
 include tst/CMakeFiles/_tst.dir/flags.make
 
-tst/CMakeFiles/_tst.dir/Formula-test.cpp.o: tst/CMakeFiles/_tst.dir/flags.make
-tst/CMakeFiles/_tst.dir/Formula-test.cpp.o: ../tst/Formula-test.cpp
-tst/CMakeFiles/_tst.dir/Formula-test.cpp.o: tst/CMakeFiles/_tst.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danielcob/Documents/Google-Unit-Testing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tst/CMakeFiles/_tst.dir/Formula-test.cpp.o"
-	cd /home/danielcob/Documents/Google-Unit-Testing/build/tst && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tst/CMakeFiles/_tst.dir/Formula-test.cpp.o -MF CMakeFiles/_tst.dir/Formula-test.cpp.o.d -o CMakeFiles/_tst.dir/Formula-test.cpp.o -c /home/danielcob/Documents/Google-Unit-Testing/tst/Formula-test.cpp
+tst/CMakeFiles/_tst.dir/test.cpp.o: tst/CMakeFiles/_tst.dir/flags.make
+tst/CMakeFiles/_tst.dir/test.cpp.o: ../tst/test.cpp
+tst/CMakeFiles/_tst.dir/test.cpp.o: tst/CMakeFiles/_tst.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danielcob/Documents/Google-Unit-Testing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tst/CMakeFiles/_tst.dir/test.cpp.o"
+	cd /home/danielcob/Documents/Google-Unit-Testing/build/tst && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tst/CMakeFiles/_tst.dir/test.cpp.o -MF CMakeFiles/_tst.dir/test.cpp.o.d -o CMakeFiles/_tst.dir/test.cpp.o -c /home/danielcob/Documents/Google-Unit-Testing/tst/test.cpp
 
-tst/CMakeFiles/_tst.dir/Formula-test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/_tst.dir/Formula-test.cpp.i"
-	cd /home/danielcob/Documents/Google-Unit-Testing/build/tst && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/danielcob/Documents/Google-Unit-Testing/tst/Formula-test.cpp > CMakeFiles/_tst.dir/Formula-test.cpp.i
+tst/CMakeFiles/_tst.dir/test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/_tst.dir/test.cpp.i"
+	cd /home/danielcob/Documents/Google-Unit-Testing/build/tst && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/danielcob/Documents/Google-Unit-Testing/tst/test.cpp > CMakeFiles/_tst.dir/test.cpp.i
 
-tst/CMakeFiles/_tst.dir/Formula-test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/_tst.dir/Formula-test.cpp.s"
-	cd /home/danielcob/Documents/Google-Unit-Testing/build/tst && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/danielcob/Documents/Google-Unit-Testing/tst/Formula-test.cpp -o CMakeFiles/_tst.dir/Formula-test.cpp.s
-
-tst/CMakeFiles/_tst.dir/main.cpp.o: tst/CMakeFiles/_tst.dir/flags.make
-tst/CMakeFiles/_tst.dir/main.cpp.o: ../tst/main.cpp
-tst/CMakeFiles/_tst.dir/main.cpp.o: tst/CMakeFiles/_tst.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danielcob/Documents/Google-Unit-Testing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tst/CMakeFiles/_tst.dir/main.cpp.o"
-	cd /home/danielcob/Documents/Google-Unit-Testing/build/tst && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tst/CMakeFiles/_tst.dir/main.cpp.o -MF CMakeFiles/_tst.dir/main.cpp.o.d -o CMakeFiles/_tst.dir/main.cpp.o -c /home/danielcob/Documents/Google-Unit-Testing/tst/main.cpp
-
-tst/CMakeFiles/_tst.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/_tst.dir/main.cpp.i"
-	cd /home/danielcob/Documents/Google-Unit-Testing/build/tst && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/danielcob/Documents/Google-Unit-Testing/tst/main.cpp > CMakeFiles/_tst.dir/main.cpp.i
-
-tst/CMakeFiles/_tst.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/_tst.dir/main.cpp.s"
-	cd /home/danielcob/Documents/Google-Unit-Testing/build/tst && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/danielcob/Documents/Google-Unit-Testing/tst/main.cpp -o CMakeFiles/_tst.dir/main.cpp.s
+tst/CMakeFiles/_tst.dir/test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/_tst.dir/test.cpp.s"
+	cd /home/danielcob/Documents/Google-Unit-Testing/build/tst && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/danielcob/Documents/Google-Unit-Testing/tst/test.cpp -o CMakeFiles/_tst.dir/test.cpp.s
 
 # Object files for target _tst
 _tst_OBJECTS = \
-"CMakeFiles/_tst.dir/Formula-test.cpp.o" \
-"CMakeFiles/_tst.dir/main.cpp.o"
+"CMakeFiles/_tst.dir/test.cpp.o"
 
 # External object files for target _tst
 _tst_EXTERNAL_OBJECTS =
 
-tst/_tst: tst/CMakeFiles/_tst.dir/Formula-test.cpp.o
-tst/_tst: tst/CMakeFiles/_tst.dir/main.cpp.o
+tst/_tst: tst/CMakeFiles/_tst.dir/test.cpp.o
 tst/_tst: tst/CMakeFiles/_tst.dir/build.make
+tst/_tst: src/lib_lib.a
 tst/_tst: lib/libgtest.a
 tst/_tst: tst/CMakeFiles/_tst.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/danielcob/Documents/Google-Unit-Testing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable _tst"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/danielcob/Documents/Google-Unit-Testing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable _tst"
 	cd /home/danielcob/Documents/Google-Unit-Testing/build/tst && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/_tst.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

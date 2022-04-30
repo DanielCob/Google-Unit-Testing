@@ -162,94 +162,40 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-src/CMakeFiles/_run.dir/rule:
-	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/_run.dir/rule
-.PHONY : src/CMakeFiles/_run.dir/rule
+src/CMakeFiles/Google-Unit-Test_run.dir/rule:
+	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/Google-Unit-Test_run.dir/rule
+.PHONY : src/CMakeFiles/Google-Unit-Test_run.dir/rule
 
 # Convenience name for target.
-_run: src/CMakeFiles/_run.dir/rule
-.PHONY : _run
+Google-Unit-Test_run: src/CMakeFiles/Google-Unit-Test_run.dir/rule
+.PHONY : Google-Unit-Test_run
 
 # fast build rule for target.
-_run/fast:
-	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/_run.dir/build.make src/CMakeFiles/_run.dir/build
-.PHONY : _run/fast
+Google-Unit-Test_run/fast:
+	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Google-Unit-Test_run.dir/build.make src/CMakeFiles/Google-Unit-Test_run.dir/build
+.PHONY : Google-Unit-Test_run/fast
 
 # Convenience name for target.
-src/CMakeFiles/_lib.dir/rule:
-	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/_lib.dir/rule
-.PHONY : src/CMakeFiles/_lib.dir/rule
+src/CMakeFiles/Google-Unit-Test_lib.dir/rule:
+	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/Google-Unit-Test_lib.dir/rule
+.PHONY : src/CMakeFiles/Google-Unit-Test_lib.dir/rule
 
 # Convenience name for target.
-_lib: src/CMakeFiles/_lib.dir/rule
-.PHONY : _lib
+Google-Unit-Test_lib: src/CMakeFiles/Google-Unit-Test_lib.dir/rule
+.PHONY : Google-Unit-Test_lib
 
 # fast build rule for target.
-_lib/fast:
-	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/_lib.dir/build.make src/CMakeFiles/_lib.dir/build
-.PHONY : _lib/fast
-
-Formula.o: Formula.cpp.o
-.PHONY : Formula.o
-
-# target to build an object file
-Formula.cpp.o:
-	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/_run.dir/build.make src/CMakeFiles/_run.dir/Formula.cpp.o
-	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/_lib.dir/build.make src/CMakeFiles/_lib.dir/Formula.cpp.o
-.PHONY : Formula.cpp.o
-
-Formula.i: Formula.cpp.i
-.PHONY : Formula.i
-
-# target to preprocess a source file
-Formula.cpp.i:
-	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/_run.dir/build.make src/CMakeFiles/_run.dir/Formula.cpp.i
-	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/_lib.dir/build.make src/CMakeFiles/_lib.dir/Formula.cpp.i
-.PHONY : Formula.cpp.i
-
-Formula.s: Formula.cpp.s
-.PHONY : Formula.s
-
-# target to generate assembly for a file
-Formula.cpp.s:
-	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/_run.dir/build.make src/CMakeFiles/_run.dir/Formula.cpp.s
-	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/_lib.dir/build.make src/CMakeFiles/_lib.dir/Formula.cpp.s
-.PHONY : Formula.cpp.s
-
-main.o: main.cpp.o
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/_run.dir/build.make src/CMakeFiles/_run.dir/main.cpp.o
-	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/_lib.dir/build.make src/CMakeFiles/_lib.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/_run.dir/build.make src/CMakeFiles/_run.dir/main.cpp.i
-	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/_lib.dir/build.make src/CMakeFiles/_lib.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/_run.dir/build.make src/CMakeFiles/_run.dir/main.cpp.s
-	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/_lib.dir/build.make src/CMakeFiles/_lib.dir/main.cpp.s
-.PHONY : main.cpp.s
+Google-Unit-Test_lib/fast:
+	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Google-Unit-Test_lib.dir/build.make src/CMakeFiles/Google-Unit-Test_lib.dir/build
+.PHONY : Google-Unit-Test_lib/fast
 
 paged_Matrix.o: paged_Matrix.cpp.o
 .PHONY : paged_Matrix.o
 
 # target to build an object file
 paged_Matrix.cpp.o:
-	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/_run.dir/build.make src/CMakeFiles/_run.dir/paged_Matrix.cpp.o
-	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/_lib.dir/build.make src/CMakeFiles/_lib.dir/paged_Matrix.cpp.o
+	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Google-Unit-Test_run.dir/build.make src/CMakeFiles/Google-Unit-Test_run.dir/paged_Matrix.cpp.o
+	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Google-Unit-Test_lib.dir/build.make src/CMakeFiles/Google-Unit-Test_lib.dir/paged_Matrix.cpp.o
 .PHONY : paged_Matrix.cpp.o
 
 paged_Matrix.i: paged_Matrix.cpp.i
@@ -257,8 +203,8 @@ paged_Matrix.i: paged_Matrix.cpp.i
 
 # target to preprocess a source file
 paged_Matrix.cpp.i:
-	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/_run.dir/build.make src/CMakeFiles/_run.dir/paged_Matrix.cpp.i
-	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/_lib.dir/build.make src/CMakeFiles/_lib.dir/paged_Matrix.cpp.i
+	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Google-Unit-Test_run.dir/build.make src/CMakeFiles/Google-Unit-Test_run.dir/paged_Matrix.cpp.i
+	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Google-Unit-Test_lib.dir/build.make src/CMakeFiles/Google-Unit-Test_lib.dir/paged_Matrix.cpp.i
 .PHONY : paged_Matrix.cpp.i
 
 paged_Matrix.s: paged_Matrix.cpp.s
@@ -266,8 +212,8 @@ paged_Matrix.s: paged_Matrix.cpp.s
 
 # target to generate assembly for a file
 paged_Matrix.cpp.s:
-	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/_run.dir/build.make src/CMakeFiles/_run.dir/paged_Matrix.cpp.s
-	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/_lib.dir/build.make src/CMakeFiles/_lib.dir/paged_Matrix.cpp.s
+	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Google-Unit-Test_run.dir/build.make src/CMakeFiles/Google-Unit-Test_run.dir/paged_Matrix.cpp.s
+	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Google-Unit-Test_lib.dir/build.make src/CMakeFiles/Google-Unit-Test_lib.dir/paged_Matrix.cpp.s
 .PHONY : paged_Matrix.cpp.s
 
 server.o: server.cpp.o
@@ -275,8 +221,8 @@ server.o: server.cpp.o
 
 # target to build an object file
 server.cpp.o:
-	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/_run.dir/build.make src/CMakeFiles/_run.dir/server.cpp.o
-	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/_lib.dir/build.make src/CMakeFiles/_lib.dir/server.cpp.o
+	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Google-Unit-Test_run.dir/build.make src/CMakeFiles/Google-Unit-Test_run.dir/server.cpp.o
+	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Google-Unit-Test_lib.dir/build.make src/CMakeFiles/Google-Unit-Test_lib.dir/server.cpp.o
 .PHONY : server.cpp.o
 
 server.i: server.cpp.i
@@ -284,8 +230,8 @@ server.i: server.cpp.i
 
 # target to preprocess a source file
 server.cpp.i:
-	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/_run.dir/build.make src/CMakeFiles/_run.dir/server.cpp.i
-	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/_lib.dir/build.make src/CMakeFiles/_lib.dir/server.cpp.i
+	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Google-Unit-Test_run.dir/build.make src/CMakeFiles/Google-Unit-Test_run.dir/server.cpp.i
+	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Google-Unit-Test_lib.dir/build.make src/CMakeFiles/Google-Unit-Test_lib.dir/server.cpp.i
 .PHONY : server.cpp.i
 
 server.s: server.cpp.s
@@ -293,8 +239,8 @@ server.s: server.cpp.s
 
 # target to generate assembly for a file
 server.cpp.s:
-	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/_run.dir/build.make src/CMakeFiles/_run.dir/server.cpp.s
-	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/_lib.dir/build.make src/CMakeFiles/_lib.dir/server.cpp.s
+	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Google-Unit-Test_run.dir/build.make src/CMakeFiles/Google-Unit-Test_run.dir/server.cpp.s
+	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Google-Unit-Test_lib.dir/build.make src/CMakeFiles/Google-Unit-Test_lib.dir/server.cpp.s
 .PHONY : server.cpp.s
 
 # Help Target
@@ -309,14 +255,8 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... _lib"
-	@echo "... _run"
-	@echo "... Formula.o"
-	@echo "... Formula.i"
-	@echo "... Formula.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... Google-Unit-Test_lib"
+	@echo "... Google-Unit-Test_run"
 	@echo "... paged_Matrix.o"
 	@echo "... paged_Matrix.i"
 	@echo "... paged_Matrix.s"
