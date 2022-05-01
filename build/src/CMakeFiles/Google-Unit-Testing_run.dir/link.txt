@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/Google-Unit-Testing_run.dir/Formula.cpp.o CMakeFiles/Google-Unit-Testing_run.dir/main.cpp.o -o Google-Unit-Testing_run 

@@ -162,42 +162,66 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-tst/CMakeFiles/Google-Unit-Test_tst.dir/rule:
-	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tst/CMakeFiles/Google-Unit-Test_tst.dir/rule
-.PHONY : tst/CMakeFiles/Google-Unit-Test_tst.dir/rule
+tst/CMakeFiles/Google-Unit-Testing_tst.dir/rule:
+	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tst/CMakeFiles/Google-Unit-Testing_tst.dir/rule
+.PHONY : tst/CMakeFiles/Google-Unit-Testing_tst.dir/rule
 
 # Convenience name for target.
-Google-Unit-Test_tst: tst/CMakeFiles/Google-Unit-Test_tst.dir/rule
-.PHONY : Google-Unit-Test_tst
+Google-Unit-Testing_tst: tst/CMakeFiles/Google-Unit-Testing_tst.dir/rule
+.PHONY : Google-Unit-Testing_tst
 
 # fast build rule for target.
-Google-Unit-Test_tst/fast:
-	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/Google-Unit-Test_tst.dir/build.make tst/CMakeFiles/Google-Unit-Test_tst.dir/build
-.PHONY : Google-Unit-Test_tst/fast
+Google-Unit-Testing_tst/fast:
+	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/Google-Unit-Testing_tst.dir/build.make tst/CMakeFiles/Google-Unit-Testing_tst.dir/build
+.PHONY : Google-Unit-Testing_tst/fast
 
-test.o: test.cpp.o
-.PHONY : test.o
+Formula-test.o: Formula-test.cpp.o
+.PHONY : Formula-test.o
 
 # target to build an object file
-test.cpp.o:
-	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/Google-Unit-Test_tst.dir/build.make tst/CMakeFiles/Google-Unit-Test_tst.dir/test.cpp.o
-.PHONY : test.cpp.o
+Formula-test.cpp.o:
+	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/Google-Unit-Testing_tst.dir/build.make tst/CMakeFiles/Google-Unit-Testing_tst.dir/Formula-test.cpp.o
+.PHONY : Formula-test.cpp.o
 
-test.i: test.cpp.i
-.PHONY : test.i
+Formula-test.i: Formula-test.cpp.i
+.PHONY : Formula-test.i
 
 # target to preprocess a source file
-test.cpp.i:
-	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/Google-Unit-Test_tst.dir/build.make tst/CMakeFiles/Google-Unit-Test_tst.dir/test.cpp.i
-.PHONY : test.cpp.i
+Formula-test.cpp.i:
+	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/Google-Unit-Testing_tst.dir/build.make tst/CMakeFiles/Google-Unit-Testing_tst.dir/Formula-test.cpp.i
+.PHONY : Formula-test.cpp.i
 
-test.s: test.cpp.s
-.PHONY : test.s
+Formula-test.s: Formula-test.cpp.s
+.PHONY : Formula-test.s
 
 # target to generate assembly for a file
-test.cpp.s:
-	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/Google-Unit-Test_tst.dir/build.make tst/CMakeFiles/Google-Unit-Test_tst.dir/test.cpp.s
-.PHONY : test.cpp.s
+Formula-test.cpp.s:
+	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/Google-Unit-Testing_tst.dir/build.make tst/CMakeFiles/Google-Unit-Testing_tst.dir/Formula-test.cpp.s
+.PHONY : Formula-test.cpp.s
+
+main.o: main.cpp.o
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/Google-Unit-Testing_tst.dir/build.make tst/CMakeFiles/Google-Unit-Testing_tst.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/Google-Unit-Testing_tst.dir/build.make tst/CMakeFiles/Google-Unit-Testing_tst.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/Google-Unit-Testing_tst.dir/build.make tst/CMakeFiles/Google-Unit-Testing_tst.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -211,10 +235,13 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... Google-Unit-Test_tst"
-	@echo "... test.o"
-	@echo "... test.i"
-	@echo "... test.s"
+	@echo "... Google-Unit-Testing_tst"
+	@echo "... Formula-test.o"
+	@echo "... Formula-test.i"
+	@echo "... Formula-test.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

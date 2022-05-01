@@ -1,2 +1,0 @@
-/usr/bin/ar qc libGoogle-Unit-Test_lib.a CMakeFiles/Google-Unit-Test_lib.dir/paged_Matrix.cpp.o CMakeFiles/Google-Unit-Test_lib.dir/server.cpp.o
-/usr/bin/ranlib libGoogle-Unit-Test_lib.a
