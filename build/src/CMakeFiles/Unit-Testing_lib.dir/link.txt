@@ -1,0 +1,2 @@
+/usr/bin/ar qc libUnit-Testing_lib.a CMakeFiles/Unit-Testing_lib.dir/Formula.cpp.o CMakeFiles/Unit-Testing_lib.dir/main.cpp.o CMakeFiles/Unit-Testing_lib.dir/paged_Matrix.cpp.o CMakeFiles/Unit-Testing_lib.dir/server.cpp.o
+/usr/bin/ranlib libUnit-Testing_lib.a

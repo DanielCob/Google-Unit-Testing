@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/danielcob/Documents/Google-Unit-Testing/lib/googletest/googletest/src/gtest_main.cc" "lib/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o" "gcc" "lib/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o.d"
+  "/home/danielcob/Documents/Unit-Testing/lib/googletest/googletest/src/gtest_main.cc" "lib/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o" "gcc" "lib/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/danielcob/Documents/Google-Unit-Testing/build/lib/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "/home/danielcob/Documents/Unit-Testing/build/lib/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/Unit-Testing_tst.dir/main.cpp.o -o Unit-Testing_tst  ../src/libUnit-Testing_lib.a ../lib/libgtest.a ../src/libUnit-Testing_lib.a ../lib/libgmock.a ../lib/libgtest.a 

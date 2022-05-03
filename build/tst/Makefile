@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/danielcob/Documents/Google-Unit-Testing
+CMAKE_SOURCE_DIR = /home/danielcob/Documents/Unit-Testing
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/danielcob/Documents/Google-Unit-Testing/build
+CMAKE_BINARY_DIR = /home/danielcob/Documents/Unit-Testing/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/danielcob/Documents/Google-Unit-Testing/build/CMakeFiles /home/danielcob/Documents/Google-Unit-Testing/build/tst//CMakeFiles/progress.marks
-	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tst/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/danielcob/Documents/Google-Unit-Testing/build/CMakeFiles 0
+	cd /home/danielcob/Documents/Unit-Testing/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/danielcob/Documents/Unit-Testing/build/CMakeFiles /home/danielcob/Documents/Unit-Testing/build/tst//CMakeFiles/progress.marks
+	cd /home/danielcob/Documents/Unit-Testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tst/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/danielcob/Documents/Unit-Testing/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tst/clean
+	cd /home/danielcob/Documents/Unit-Testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tst/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,63 +148,39 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tst/preinstall
+	cd /home/danielcob/Documents/Unit-Testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tst/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tst/preinstall
+	cd /home/danielcob/Documents/Unit-Testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tst/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/danielcob/Documents/Unit-Testing/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
-tst/CMakeFiles/Google-Unit-Testing_tst.dir/rule:
-	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tst/CMakeFiles/Google-Unit-Testing_tst.dir/rule
-.PHONY : tst/CMakeFiles/Google-Unit-Testing_tst.dir/rule
+tst/CMakeFiles/Unit-Testing_tst.dir/rule:
+	cd /home/danielcob/Documents/Unit-Testing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tst/CMakeFiles/Unit-Testing_tst.dir/rule
+.PHONY : tst/CMakeFiles/Unit-Testing_tst.dir/rule
 
 # Convenience name for target.
-Google-Unit-Testing_tst: tst/CMakeFiles/Google-Unit-Testing_tst.dir/rule
-.PHONY : Google-Unit-Testing_tst
+Unit-Testing_tst: tst/CMakeFiles/Unit-Testing_tst.dir/rule
+.PHONY : Unit-Testing_tst
 
 # fast build rule for target.
-Google-Unit-Testing_tst/fast:
-	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/Google-Unit-Testing_tst.dir/build.make tst/CMakeFiles/Google-Unit-Testing_tst.dir/build
-.PHONY : Google-Unit-Testing_tst/fast
-
-Formula-test.o: Formula-test.cpp.o
-.PHONY : Formula-test.o
-
-# target to build an object file
-Formula-test.cpp.o:
-	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/Google-Unit-Testing_tst.dir/build.make tst/CMakeFiles/Google-Unit-Testing_tst.dir/Formula-test.cpp.o
-.PHONY : Formula-test.cpp.o
-
-Formula-test.i: Formula-test.cpp.i
-.PHONY : Formula-test.i
-
-# target to preprocess a source file
-Formula-test.cpp.i:
-	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/Google-Unit-Testing_tst.dir/build.make tst/CMakeFiles/Google-Unit-Testing_tst.dir/Formula-test.cpp.i
-.PHONY : Formula-test.cpp.i
-
-Formula-test.s: Formula-test.cpp.s
-.PHONY : Formula-test.s
-
-# target to generate assembly for a file
-Formula-test.cpp.s:
-	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/Google-Unit-Testing_tst.dir/build.make tst/CMakeFiles/Google-Unit-Testing_tst.dir/Formula-test.cpp.s
-.PHONY : Formula-test.cpp.s
+Unit-Testing_tst/fast:
+	cd /home/danielcob/Documents/Unit-Testing/build && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/Unit-Testing_tst.dir/build.make tst/CMakeFiles/Unit-Testing_tst.dir/build
+.PHONY : Unit-Testing_tst/fast
 
 main.o: main.cpp.o
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/Google-Unit-Testing_tst.dir/build.make tst/CMakeFiles/Google-Unit-Testing_tst.dir/main.cpp.o
+	cd /home/danielcob/Documents/Unit-Testing/build && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/Unit-Testing_tst.dir/build.make tst/CMakeFiles/Unit-Testing_tst.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -212,7 +188,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/Google-Unit-Testing_tst.dir/build.make tst/CMakeFiles/Google-Unit-Testing_tst.dir/main.cpp.i
+	cd /home/danielcob/Documents/Unit-Testing/build && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/Unit-Testing_tst.dir/build.make tst/CMakeFiles/Unit-Testing_tst.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -220,7 +196,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/Google-Unit-Testing_tst.dir/build.make tst/CMakeFiles/Google-Unit-Testing_tst.dir/main.cpp.s
+	cd /home/danielcob/Documents/Unit-Testing/build && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/Unit-Testing_tst.dir/build.make tst/CMakeFiles/Unit-Testing_tst.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -235,10 +211,7 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... Google-Unit-Testing_tst"
-	@echo "... Formula-test.o"
-	@echo "... Formula-test.i"
-	@echo "... Formula-test.s"
+	@echo "... Unit-Testing_tst"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -253,6 +226,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/danielcob/Documents/Google-Unit-Testing/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/danielcob/Documents/Unit-Testing/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

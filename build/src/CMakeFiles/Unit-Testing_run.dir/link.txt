@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/Unit-Testing_run.dir/Formula.cpp.o CMakeFiles/Unit-Testing_run.dir/main.cpp.o CMakeFiles/Unit-Testing_run.dir/paged_Matrix.cpp.o CMakeFiles/Unit-Testing_run.dir/server.cpp.o -o Unit-Testing_run 

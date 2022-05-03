@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/danielcob/Documents/Google-Unit-Testing/src -I/home/danielcob/Documents/Google-Unit-Testing/lib/googletest/googlemock/include -I/home/danielcob/Documents/Google-Unit-Testing/lib/googletest/googlemock -isystem /home/danielcob/Documents/Google-Unit-Testing/lib/googletest/googletest/include -isystem /home/danielcob/Documents/Google-Unit-Testing/lib/googletest/googletest
+CXX_INCLUDES = -I/home/danielcob/Documents/Unit-Testing/src -I/home/danielcob/Documents/Unit-Testing/lib/googletest/googlemock/include -I/home/danielcob/Documents/Unit-Testing/lib/googletest/googlemock -isystem /home/danielcob/Documents/Unit-Testing/lib/googletest/googletest/include -isystem /home/danielcob/Documents/Unit-Testing/lib/googletest/googletest
 
 CXX_FLAGS = -g -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++14
 

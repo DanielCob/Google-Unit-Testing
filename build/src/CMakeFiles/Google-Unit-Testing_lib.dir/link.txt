@@ -1,2 +1,0 @@
-/usr/bin/ar qc libGoogle-Unit-Testing_lib.a CMakeFiles/Google-Unit-Testing_lib.dir/Formula.cpp.o CMakeFiles/Google-Unit-Testing_lib.dir/main.cpp.o
-/usr/bin/ranlib libGoogle-Unit-Testing_lib.a

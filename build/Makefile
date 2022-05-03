@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/danielcob/Documents/Google-Unit-Testing
+CMAKE_SOURCE_DIR = /home/danielcob/Documents/Unit-Testing
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/danielcob/Documents/Google-Unit-Testing/build
+CMAKE_BINARY_DIR = /home/danielcob/Documents/Unit-Testing/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +132,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/danielcob/Documents/Google-Unit-Testing/build/CMakeFiles /home/danielcob/Documents/Google-Unit-Testing/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/danielcob/Documents/Unit-Testing/build/CMakeFiles /home/danielcob/Documents/Unit-Testing/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/danielcob/Documents/Google-Unit-Testing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/danielcob/Documents/Unit-Testing/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -162,43 +162,43 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Google-Unit-Testing_run
+# Target rules for targets named Unit-Testing_run
 
 # Build rule for target.
-Google-Unit-Testing_run: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Google-Unit-Testing_run
-.PHONY : Google-Unit-Testing_run
+Unit-Testing_run: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Unit-Testing_run
+.PHONY : Unit-Testing_run
 
 # fast build rule for target.
-Google-Unit-Testing_run/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Google-Unit-Testing_run.dir/build.make src/CMakeFiles/Google-Unit-Testing_run.dir/build
-.PHONY : Google-Unit-Testing_run/fast
+Unit-Testing_run/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Unit-Testing_run.dir/build.make src/CMakeFiles/Unit-Testing_run.dir/build
+.PHONY : Unit-Testing_run/fast
 
 #=============================================================================
-# Target rules for targets named Google-Unit-Testing_lib
+# Target rules for targets named Unit-Testing_lib
 
 # Build rule for target.
-Google-Unit-Testing_lib: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Google-Unit-Testing_lib
-.PHONY : Google-Unit-Testing_lib
+Unit-Testing_lib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Unit-Testing_lib
+.PHONY : Unit-Testing_lib
 
 # fast build rule for target.
-Google-Unit-Testing_lib/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Google-Unit-Testing_lib.dir/build.make src/CMakeFiles/Google-Unit-Testing_lib.dir/build
-.PHONY : Google-Unit-Testing_lib/fast
+Unit-Testing_lib/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Unit-Testing_lib.dir/build.make src/CMakeFiles/Unit-Testing_lib.dir/build
+.PHONY : Unit-Testing_lib/fast
 
 #=============================================================================
-# Target rules for targets named Google-Unit-Testing_tst
+# Target rules for targets named Unit-Testing_tst
 
 # Build rule for target.
-Google-Unit-Testing_tst: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Google-Unit-Testing_tst
-.PHONY : Google-Unit-Testing_tst
+Unit-Testing_tst: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Unit-Testing_tst
+.PHONY : Unit-Testing_tst
 
 # fast build rule for target.
-Google-Unit-Testing_tst/fast:
-	$(MAKE) $(MAKESILENT) -f tst/CMakeFiles/Google-Unit-Testing_tst.dir/build.make tst/CMakeFiles/Google-Unit-Testing_tst.dir/build
-.PHONY : Google-Unit-Testing_tst/fast
+Unit-Testing_tst/fast:
+	$(MAKE) $(MAKESILENT) -f tst/CMakeFiles/Unit-Testing_tst.dir/build.make tst/CMakeFiles/Unit-Testing_tst.dir/build
+.PHONY : Unit-Testing_tst/fast
 
 #=============================================================================
 # Target rules for targets named gmock
@@ -264,9 +264,9 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... Google-Unit-Testing_lib"
-	@echo "... Google-Unit-Testing_run"
-	@echo "... Google-Unit-Testing_tst"
+	@echo "... Unit-Testing_lib"
+	@echo "... Unit-Testing_run"
+	@echo "... Unit-Testing_tst"
 	@echo "... gmock"
 	@echo "... gmock_main"
 	@echo "... gtest"
