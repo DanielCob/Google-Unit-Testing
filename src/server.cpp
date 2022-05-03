@@ -1,53 +1,6 @@
-/**
- * @file server.cpp
- * @author Daniel Cob Beirute
- * @brief la clase servidor se encarga de manejar tanto la lógica del juego como la conexión con el cliente a traves de sockets.
- * @version 0.1
- * @date 2022-04-19
- *
- * @copyright Copyright (c) 2022
- *
- */
-#include <unistd.h>
-#include <stdio.h>
-#include <sys/resource.h>
-#include <sys/socket.h>
-#include <stdlib.h>
-#include <netinet/in.h>
-#include <string.h>
-#include <iostream>
-#include "../src/paged_matrix.h"
-#define PORT 8080
+#include "server.h"
 
-using namespace std;
-
-/**
- * @brief server_fd almacena el socket file del servidor, new_socket almacena el socket del cliente, valread almacena la cantidad de dígitos leídos del último mensaje
- *
- */
-int server_fd, new_socket, valread;
-/**
- * @brief almacena los mensajes enviados por el cliente
- *
- */
-char buffer[1042] = {0};
-const char *player1_name;
-const char *player2_name;
-/**
- * @brief almacena el turno, si el turno es del jugador 1 almacena 1, si es el turno del jugador 2 almacena 2
- *
- */
-int turn;
-int pointsP1 = 0;
-int pointsP2 = 0;
-/**
- * @brief almacena el multiplicador de puntaje para la suma de puntos
- *
- */
-int multiplier = 1;
-paged_Matrix m;
-
-int initializeServer()
+int server::initializeServer()
 {
     struct sockaddr_in address = {};
     int opt = 1;
@@ -99,7 +52,7 @@ int initializeServer()
  *
  * @return const char* mensaje
  */
-const char *readSocket()
+const char *server::readSocket()
 {
     memset(buffer, 0, valread);
     // cout << "Client: ";
@@ -112,7 +65,7 @@ const char *readSocket()
  *
  * @param msg
  */
-void sendToClient(const char *msg)
+void server::sendToClient(const char *msg)
 {
     send(new_socket, msg, strlen(msg), 0);
     // cout << "Message sent: " << msg << endl;
@@ -121,7 +74,7 @@ void sendToClient(const char *msg)
  * @brief lee los nombres enviados por el cliente y los almacena
  *
  */
-void readNames()
+void server::readNames()
 {
     player1_name = readSocket();
     sendToClient(to_string(pointsP1).c_str());
@@ -132,7 +85,7 @@ void readNames()
  * @brief define el orden de los turnos
  *
  */
-void logicOrder()
+void server::logicOrder()
 {
     readSocket();
     srand(time(0));
@@ -147,7 +100,7 @@ void logicOrder()
  * @param c posición de la carta en forma: i,j
  * @return string imagen que contiene la carta
  */
-string readCard(const char *c)
+string server::readCard(const char *c)
 {
     return m.getImage(m.seekCard(c[0] - 48, c[2] - 48)); //-48 sirve para convertir de ASCII a int
 }
@@ -155,7 +108,7 @@ string readCard(const char *c)
  * @brief lee el mensaje del cliente y le envía la carta solicitada
  *
  */
-void logicRevealCard()
+void server::logicRevealCard()
 {
     sendToClient(readCard(readSocket()).c_str());
 }
@@ -163,7 +116,7 @@ void logicRevealCard()
  * @brief añade puntos a los jugadores dependiendo del turno
  *
  */
-void logicAddPoints()
+void server::logicAddPoints()
 {
     if (turn == 1)
     {
@@ -186,7 +139,7 @@ void logicAddPoints()
  * @brief realiza un cambio de turno
  *
  */
-void logicChangeTurn()
+void server::logicChangeTurn()
 {
     if (turn == 1)
     {
@@ -201,7 +154,7 @@ void logicChangeTurn()
  * @brief secuencia de un turno completo para el juego de memoria
  *
  */
-void logicTurn()
+void server::logicTurn()
 {
     logicRevealCard();
     logicRevealCard();
@@ -234,36 +187,10 @@ void logicTurn()
     sendToClient("Ok");
 }
 
-long get_mem_usage() {
+long server::get_mem_usage() {
     struct rusage myusage;
 
     getrusage(RUSAGE_SELF, &myusage);
     return myusage.ru_maxrss;
 }
 
-// int main()
-// {
-//     // long baseline = get_mem_usage();
-//     // for (int i = 0; i < 100; i++)
-//     // {
-//     //     void *m = malloc(20*1024*1024);
-//     //     memset(m,0,20*1024*1024);
-//     //     printf("usage: %ld + %ld\n", baseline, get_mem_usage()-baseline);
-//     // }
-    
-//     cout << "memory usage: " << get_mem_usage() << " bytes" << endl;
-//     initializeServer();
-//     cout << "memory usage: " << get_mem_usage() << " bytes" << endl;
-//     readNames();
-//     logicOrder();
-//     while (m.get_cardsLeft() != 0)
-//     {
-//         logicTurn();
-//         cout << "P1 points: "<< pointsP1 << endl;
-//         cout << "P2 points: "<< pointsP2 << endl;
-//         cout << "memory usage: " << get_mem_usage() << " bytes" << endl;
-//         cout << "-----------Next Turn-----------" << endl;
-//     }
-
-//     return 0;
-// }
