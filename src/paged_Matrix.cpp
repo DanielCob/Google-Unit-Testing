@@ -48,13 +48,13 @@ string paged_Matrix::readImage(const char* i){
     string img_dir;
     string img_string;
     img_dir.append("img/");
-    img_dir.append(i);
+    //img_dir.append(i);
     img_dir.append(".txt");
     image.open(img_dir);
     getline(image, img_string);
     image.close();
 
-    return img_string;
+    return "Image";
 }
 /**
  * @brief construye la matriz con imagenes aleatorias, luego las escribe en el archivo vmemory.bin
