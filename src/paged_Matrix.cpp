@@ -11,8 +11,6 @@
 #include "../src/paged_matrix.h"
 
 paged_Matrix::paged_Matrix() {
-    buildMatrix(rows, cols);
-    shuffleMemoryMatrix();
 }
 
 int paged_Matrix::get_cardsLeft() {
@@ -30,13 +28,14 @@ void paged_Matrix::set_inMemory(bool i) {
  * @brief crea el archivo vmemory.bin para almacenar la matriz en disco
  * 
  */
-void paged_Matrix::initializeMemory() {
+int paged_Matrix::initializeMemory() {
     vmem = fstream("vmemory", ios::in | ios::out | ios::binary);
     if (!vmem.good()) {
         ofstream newFile("vmemory");
         newFile.close();
         vmem = fstream("vmemory", ios::in | ios::out | ios::binary);
     }
+    return 0;
 }
 /**
  * @brief abre el archivo .txt que contiene la imagen en base64 y la retorna como un string.
@@ -63,7 +62,7 @@ string paged_Matrix::readImage(const char* i){
  * @param rows 
  * @param cols 
  */
-void paged_Matrix::buildMatrix(int rows, int cols) {
+int paged_Matrix::buildMatrix(int rows, int cols) {
     initializeMemory();
     vector <string> cards = shuffleCards();
     card matrix[rows][cols];
@@ -80,6 +79,7 @@ void paged_Matrix::buildMatrix(int rows, int cols) {
     }
 
     vmem.write((char*) &matrix, sizeof(card[rows][cols])); //Escribe en vmem la matriz recién hecha
+    return 0;
 }
 /**
  * @brief baraja las imagenes y las almacena como un vector de strings
@@ -90,8 +90,11 @@ vector <string> paged_Matrix::shuffleCards() {
     vector <string> deck;
     for (int i = 1; i < 16; i++)
     {
-        deck.push_back(readImage(to_string(i).c_str()));
-        deck.push_back(readImage(to_string(i).c_str()));
+        
+        deck.push_back("a");
+        deck.push_back("a");
+        // deck.push_back(readImage(to_string(i).c_str()));
+        // deck.push_back(readImage(to_string(i).c_str()));
     }
 
     vector <string> shuffledDeck;
@@ -119,12 +122,12 @@ void paged_Matrix::shuffleMemoryMatrix() {
         size_t rand_j = rand()%cols;
         memoryMatrix.push_back(seekinMatrix(rand_i, rand_j, true));
     }
-    cout << "Cards in memory:" << endl;
-    for (int i = 0; i < memoryMatrix.size(); i++) //imprime la matriz
-        {
-            cout << memoryMatrix[i].posX << memoryMatrix[i].posY << " ";
-        }
-    cout << endl;
+    // cout << "Cards in memory:" << endl;
+    // for (int i = 0; i < memoryMatrix.size(); i++) //imprime la matriz
+    //     {
+    //         cout << memoryMatrix[i].posX << memoryMatrix[i].posY << " ";
+    //     }
+    // cout << endl;
 }
 /**
  * @brief busca la tarjeta solicitada. Primero realiza la busqueda en la memoria, si no la encuentra le pide a seekinMatrix que la lea en disco

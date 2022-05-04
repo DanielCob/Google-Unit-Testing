@@ -1,4 +1,4 @@
-# Install script for directory: /home/danielcob/Documents/Unit-Testing/src
+# Install script for directory: /home/danielcob/Documents/Google-Unit-Testing/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

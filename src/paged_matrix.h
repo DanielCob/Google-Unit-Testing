@@ -36,7 +36,7 @@ private:
      * 
      */
     string tempCard1; 
-        /**
+    /**
      * @brief imagen de la última carta seleccionada
      * 
      */
@@ -55,9 +55,9 @@ public:
     int get_cardsLeft();
     bool get_inMemory();
     void set_inMemory(bool i);
-    void initializeMemory();
+    int initializeMemory();
     string readImage(const char* i);
-    void buildMatrix(int rows, int cols);
+    int buildMatrix(int rows, int cols);
     void shuffleMemoryMatrix();
     card seekCard(int i, int j);
     card seekinMatrix(int i, int j, bool shuffle);

@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/danielcob/Documents/Unit-Testing/src/Formula.cpp" "src/CMakeFiles/Unit-Testing_lib.dir/Formula.cpp.o" "gcc" "src/CMakeFiles/Unit-Testing_lib.dir/Formula.cpp.o.d"
-  "/home/danielcob/Documents/Unit-Testing/src/main.cpp" "src/CMakeFiles/Unit-Testing_lib.dir/main.cpp.o" "gcc" "src/CMakeFiles/Unit-Testing_lib.dir/main.cpp.o.d"
-  "/home/danielcob/Documents/Unit-Testing/src/paged_Matrix.cpp" "src/CMakeFiles/Unit-Testing_lib.dir/paged_Matrix.cpp.o" "gcc" "src/CMakeFiles/Unit-Testing_lib.dir/paged_Matrix.cpp.o.d"
-  "/home/danielcob/Documents/Unit-Testing/src/server.cpp" "src/CMakeFiles/Unit-Testing_lib.dir/server.cpp.o" "gcc" "src/CMakeFiles/Unit-Testing_lib.dir/server.cpp.o.d"
+  "/home/danielcob/Documents/Google-Unit-Testing/src/Formula.cpp" "src/CMakeFiles/Unit-Testing_lib.dir/Formula.cpp.o" "gcc" "src/CMakeFiles/Unit-Testing_lib.dir/Formula.cpp.o.d"
+  "/home/danielcob/Documents/Google-Unit-Testing/src/main.cpp" "src/CMakeFiles/Unit-Testing_lib.dir/main.cpp.o" "gcc" "src/CMakeFiles/Unit-Testing_lib.dir/main.cpp.o.d"
+  "/home/danielcob/Documents/Google-Unit-Testing/src/paged_Matrix.cpp" "src/CMakeFiles/Unit-Testing_lib.dir/paged_Matrix.cpp.o" "gcc" "src/CMakeFiles/Unit-Testing_lib.dir/paged_Matrix.cpp.o.d"
+  "/home/danielcob/Documents/Google-Unit-Testing/src/server.cpp" "src/CMakeFiles/Unit-Testing_lib.dir/server.cpp.o" "gcc" "src/CMakeFiles/Unit-Testing_lib.dir/server.cpp.o.d"
   )
 
 # Targets to which this target links.

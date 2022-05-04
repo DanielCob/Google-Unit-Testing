@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/danielcob/Documents/Unit-Testing/src
+CXX_INCLUDES = -I/home/danielcob/Documents/Google-Unit-Testing/src
 
 CXX_FLAGS = -g -std=gnu++14
 

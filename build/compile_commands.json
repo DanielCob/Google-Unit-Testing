@@ -1,67 +1,67 @@
 [
 {
-  "directory": "/home/danielcob/Documents/Unit-Testing/build/src",
-  "command": "/usr/bin/g++  -I/home/danielcob/Documents/Unit-Testing/src -g -std=gnu++14 -o CMakeFiles/Unit-Testing_run.dir/Formula.cpp.o -c /home/danielcob/Documents/Unit-Testing/src/Formula.cpp",
-  "file": "/home/danielcob/Documents/Unit-Testing/src/Formula.cpp"
+  "directory": "/home/danielcob/Documents/Google-Unit-Testing/build/src",
+  "command": "/usr/bin/g++  -I/home/danielcob/Documents/Google-Unit-Testing/src -g -std=gnu++14 -o CMakeFiles/Unit-Testing_run.dir/Formula.cpp.o -c /home/danielcob/Documents/Google-Unit-Testing/src/Formula.cpp",
+  "file": "/home/danielcob/Documents/Google-Unit-Testing/src/Formula.cpp"
 },
 {
-  "directory": "/home/danielcob/Documents/Unit-Testing/build/src",
-  "command": "/usr/bin/g++  -I/home/danielcob/Documents/Unit-Testing/src -g -std=gnu++14 -o CMakeFiles/Unit-Testing_run.dir/main.cpp.o -c /home/danielcob/Documents/Unit-Testing/src/main.cpp",
-  "file": "/home/danielcob/Documents/Unit-Testing/src/main.cpp"
+  "directory": "/home/danielcob/Documents/Google-Unit-Testing/build/src",
+  "command": "/usr/bin/g++  -I/home/danielcob/Documents/Google-Unit-Testing/src -g -std=gnu++14 -o CMakeFiles/Unit-Testing_run.dir/main.cpp.o -c /home/danielcob/Documents/Google-Unit-Testing/src/main.cpp",
+  "file": "/home/danielcob/Documents/Google-Unit-Testing/src/main.cpp"
 },
 {
-  "directory": "/home/danielcob/Documents/Unit-Testing/build/src",
-  "command": "/usr/bin/g++  -I/home/danielcob/Documents/Unit-Testing/src -g -std=gnu++14 -o CMakeFiles/Unit-Testing_run.dir/paged_Matrix.cpp.o -c /home/danielcob/Documents/Unit-Testing/src/paged_Matrix.cpp",
-  "file": "/home/danielcob/Documents/Unit-Testing/src/paged_Matrix.cpp"
+  "directory": "/home/danielcob/Documents/Google-Unit-Testing/build/src",
+  "command": "/usr/bin/g++  -I/home/danielcob/Documents/Google-Unit-Testing/src -g -std=gnu++14 -o CMakeFiles/Unit-Testing_run.dir/paged_Matrix.cpp.o -c /home/danielcob/Documents/Google-Unit-Testing/src/paged_Matrix.cpp",
+  "file": "/home/danielcob/Documents/Google-Unit-Testing/src/paged_Matrix.cpp"
 },
 {
-  "directory": "/home/danielcob/Documents/Unit-Testing/build/src",
-  "command": "/usr/bin/g++  -I/home/danielcob/Documents/Unit-Testing/src -g -std=gnu++14 -o CMakeFiles/Unit-Testing_run.dir/server.cpp.o -c /home/danielcob/Documents/Unit-Testing/src/server.cpp",
-  "file": "/home/danielcob/Documents/Unit-Testing/src/server.cpp"
+  "directory": "/home/danielcob/Documents/Google-Unit-Testing/build/src",
+  "command": "/usr/bin/g++  -I/home/danielcob/Documents/Google-Unit-Testing/src -g -std=gnu++14 -o CMakeFiles/Unit-Testing_run.dir/server.cpp.o -c /home/danielcob/Documents/Google-Unit-Testing/src/server.cpp",
+  "file": "/home/danielcob/Documents/Google-Unit-Testing/src/server.cpp"
 },
 {
-  "directory": "/home/danielcob/Documents/Unit-Testing/build/src",
-  "command": "/usr/bin/g++  -I/home/danielcob/Documents/Unit-Testing/src -g -std=gnu++14 -o CMakeFiles/Unit-Testing_lib.dir/Formula.cpp.o -c /home/danielcob/Documents/Unit-Testing/src/Formula.cpp",
-  "file": "/home/danielcob/Documents/Unit-Testing/src/Formula.cpp"
+  "directory": "/home/danielcob/Documents/Google-Unit-Testing/build/src",
+  "command": "/usr/bin/g++  -I/home/danielcob/Documents/Google-Unit-Testing/src -g -std=gnu++14 -o CMakeFiles/Unit-Testing_lib.dir/Formula.cpp.o -c /home/danielcob/Documents/Google-Unit-Testing/src/Formula.cpp",
+  "file": "/home/danielcob/Documents/Google-Unit-Testing/src/Formula.cpp"
 },
 {
-  "directory": "/home/danielcob/Documents/Unit-Testing/build/src",
-  "command": "/usr/bin/g++  -I/home/danielcob/Documents/Unit-Testing/src -g -std=gnu++14 -o CMakeFiles/Unit-Testing_lib.dir/main.cpp.o -c /home/danielcob/Documents/Unit-Testing/src/main.cpp",
-  "file": "/home/danielcob/Documents/Unit-Testing/src/main.cpp"
+  "directory": "/home/danielcob/Documents/Google-Unit-Testing/build/src",
+  "command": "/usr/bin/g++  -I/home/danielcob/Documents/Google-Unit-Testing/src -g -std=gnu++14 -o CMakeFiles/Unit-Testing_lib.dir/main.cpp.o -c /home/danielcob/Documents/Google-Unit-Testing/src/main.cpp",
+  "file": "/home/danielcob/Documents/Google-Unit-Testing/src/main.cpp"
 },
 {
-  "directory": "/home/danielcob/Documents/Unit-Testing/build/src",
-  "command": "/usr/bin/g++  -I/home/danielcob/Documents/Unit-Testing/src -g -std=gnu++14 -o CMakeFiles/Unit-Testing_lib.dir/paged_Matrix.cpp.o -c /home/danielcob/Documents/Unit-Testing/src/paged_Matrix.cpp",
-  "file": "/home/danielcob/Documents/Unit-Testing/src/paged_Matrix.cpp"
+  "directory": "/home/danielcob/Documents/Google-Unit-Testing/build/src",
+  "command": "/usr/bin/g++  -I/home/danielcob/Documents/Google-Unit-Testing/src -g -std=gnu++14 -o CMakeFiles/Unit-Testing_lib.dir/paged_Matrix.cpp.o -c /home/danielcob/Documents/Google-Unit-Testing/src/paged_Matrix.cpp",
+  "file": "/home/danielcob/Documents/Google-Unit-Testing/src/paged_Matrix.cpp"
 },
 {
-  "directory": "/home/danielcob/Documents/Unit-Testing/build/src",
-  "command": "/usr/bin/g++  -I/home/danielcob/Documents/Unit-Testing/src -g -std=gnu++14 -o CMakeFiles/Unit-Testing_lib.dir/server.cpp.o -c /home/danielcob/Documents/Unit-Testing/src/server.cpp",
-  "file": "/home/danielcob/Documents/Unit-Testing/src/server.cpp"
+  "directory": "/home/danielcob/Documents/Google-Unit-Testing/build/src",
+  "command": "/usr/bin/g++  -I/home/danielcob/Documents/Google-Unit-Testing/src -g -std=gnu++14 -o CMakeFiles/Unit-Testing_lib.dir/server.cpp.o -c /home/danielcob/Documents/Google-Unit-Testing/src/server.cpp",
+  "file": "/home/danielcob/Documents/Google-Unit-Testing/src/server.cpp"
 },
 {
-  "directory": "/home/danielcob/Documents/Unit-Testing/build/tst",
-  "command": "/usr/bin/g++  -I/home/danielcob/Documents/Unit-Testing/src -isystem /home/danielcob/Documents/Unit-Testing/lib/googletest/googletest/include -isystem /home/danielcob/Documents/Unit-Testing/lib/googletest/googletest -isystem /home/danielcob/Documents/Unit-Testing/lib/googletest/googlemock/include -isystem /home/danielcob/Documents/Unit-Testing/lib/googletest/googlemock -g -std=gnu++14 -o CMakeFiles/Unit-Testing_tst.dir/main.cpp.o -c /home/danielcob/Documents/Unit-Testing/tst/main.cpp",
-  "file": "/home/danielcob/Documents/Unit-Testing/tst/main.cpp"
+  "directory": "/home/danielcob/Documents/Google-Unit-Testing/build/tst",
+  "command": "/usr/bin/g++  -I/home/danielcob/Documents/Google-Unit-Testing/src -isystem /home/danielcob/Documents/Google-Unit-Testing/lib/googletest/googletest/include -isystem /home/danielcob/Documents/Google-Unit-Testing/lib/googletest/googletest -isystem /home/danielcob/Documents/Google-Unit-Testing/lib/googletest/googlemock/include -isystem /home/danielcob/Documents/Google-Unit-Testing/lib/googletest/googlemock -g -std=gnu++14 -o CMakeFiles/Unit-Testing_tst.dir/main.cpp.o -c /home/danielcob/Documents/Google-Unit-Testing/tst/main.cpp",
+  "file": "/home/danielcob/Documents/Google-Unit-Testing/tst/main.cpp"
 },
 {
-  "directory": "/home/danielcob/Documents/Unit-Testing/build/lib/googletest/googlemock",
-  "command": "/usr/bin/g++  -I/home/danielcob/Documents/Unit-Testing/src -I/home/danielcob/Documents/Unit-Testing/lib/googletest/googlemock/include -I/home/danielcob/Documents/Unit-Testing/lib/googletest/googlemock -isystem /home/danielcob/Documents/Unit-Testing/lib/googletest/googletest/include -isystem /home/danielcob/Documents/Unit-Testing/lib/googletest/googletest -g -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++14 -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/danielcob/Documents/Unit-Testing/lib/googletest/googlemock/src/gmock-all.cc",
-  "file": "/home/danielcob/Documents/Unit-Testing/lib/googletest/googlemock/src/gmock-all.cc"
+  "directory": "/home/danielcob/Documents/Google-Unit-Testing/build/lib/googletest/googlemock",
+  "command": "/usr/bin/g++  -I/home/danielcob/Documents/Google-Unit-Testing/src -I/home/danielcob/Documents/Google-Unit-Testing/lib/googletest/googlemock/include -I/home/danielcob/Documents/Google-Unit-Testing/lib/googletest/googlemock -isystem /home/danielcob/Documents/Google-Unit-Testing/lib/googletest/googletest/include -isystem /home/danielcob/Documents/Google-Unit-Testing/lib/googletest/googletest -g -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++14 -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/danielcob/Documents/Google-Unit-Testing/lib/googletest/googlemock/src/gmock-all.cc",
+  "file": "/home/danielcob/Documents/Google-Unit-Testing/lib/googletest/googlemock/src/gmock-all.cc"
 },
 {
-  "directory": "/home/danielcob/Documents/Unit-Testing/build/lib/googletest/googlemock",
-  "command": "/usr/bin/g++  -I/home/danielcob/Documents/Unit-Testing/src -isystem /home/danielcob/Documents/Unit-Testing/lib/googletest/googlemock/include -isystem /home/danielcob/Documents/Unit-Testing/lib/googletest/googlemock -isystem /home/danielcob/Documents/Unit-Testing/lib/googletest/googletest/include -isystem /home/danielcob/Documents/Unit-Testing/lib/googletest/googletest -g -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++14 -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/danielcob/Documents/Unit-Testing/lib/googletest/googlemock/src/gmock_main.cc",
-  "file": "/home/danielcob/Documents/Unit-Testing/lib/googletest/googlemock/src/gmock_main.cc"
+  "directory": "/home/danielcob/Documents/Google-Unit-Testing/build/lib/googletest/googlemock",
+  "command": "/usr/bin/g++  -I/home/danielcob/Documents/Google-Unit-Testing/src -isystem /home/danielcob/Documents/Google-Unit-Testing/lib/googletest/googlemock/include -isystem /home/danielcob/Documents/Google-Unit-Testing/lib/googletest/googlemock -isystem /home/danielcob/Documents/Google-Unit-Testing/lib/googletest/googletest/include -isystem /home/danielcob/Documents/Google-Unit-Testing/lib/googletest/googletest -g -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++14 -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/danielcob/Documents/Google-Unit-Testing/lib/googletest/googlemock/src/gmock_main.cc",
+  "file": "/home/danielcob/Documents/Google-Unit-Testing/lib/googletest/googlemock/src/gmock_main.cc"
 },
 {
-  "directory": "/home/danielcob/Documents/Unit-Testing/build/lib/googletest/googletest",
-  "command": "/usr/bin/g++  -I/home/danielcob/Documents/Unit-Testing/src -I/home/danielcob/Documents/Unit-Testing/lib/googletest/googletest/include -I/home/danielcob/Documents/Unit-Testing/lib/googletest/googletest -g -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++14 -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/danielcob/Documents/Unit-Testing/lib/googletest/googletest/src/gtest-all.cc",
-  "file": "/home/danielcob/Documents/Unit-Testing/lib/googletest/googletest/src/gtest-all.cc"
+  "directory": "/home/danielcob/Documents/Google-Unit-Testing/build/lib/googletest/googletest",
+  "command": "/usr/bin/g++  -I/home/danielcob/Documents/Google-Unit-Testing/src -I/home/danielcob/Documents/Google-Unit-Testing/lib/googletest/googletest/include -I/home/danielcob/Documents/Google-Unit-Testing/lib/googletest/googletest -g -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++14 -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/danielcob/Documents/Google-Unit-Testing/lib/googletest/googletest/src/gtest-all.cc",
+  "file": "/home/danielcob/Documents/Google-Unit-Testing/lib/googletest/googletest/src/gtest-all.cc"
 },
 {
-  "directory": "/home/danielcob/Documents/Unit-Testing/build/lib/googletest/googletest",
-  "command": "/usr/bin/g++  -I/home/danielcob/Documents/Unit-Testing/src -isystem /home/danielcob/Documents/Unit-Testing/lib/googletest/googletest/include -isystem /home/danielcob/Documents/Unit-Testing/lib/googletest/googletest -g -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++14 -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/danielcob/Documents/Unit-Testing/lib/googletest/googletest/src/gtest_main.cc",
-  "file": "/home/danielcob/Documents/Unit-Testing/lib/googletest/googletest/src/gtest_main.cc"
+  "directory": "/home/danielcob/Documents/Google-Unit-Testing/build/lib/googletest/googletest",
+  "command": "/usr/bin/g++  -I/home/danielcob/Documents/Google-Unit-Testing/src -isystem /home/danielcob/Documents/Google-Unit-Testing/lib/googletest/googletest/include -isystem /home/danielcob/Documents/Google-Unit-Testing/lib/googletest/googletest -g -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++14 -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/danielcob/Documents/Google-Unit-Testing/lib/googletest/googletest/src/gtest_main.cc",
+  "file": "/home/danielcob/Documents/Google-Unit-Testing/lib/googletest/googletest/src/gtest_main.cc"
 }
 ]
